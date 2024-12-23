@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional custom styles */
+        body {
+            font-family: 'Georgia', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(to right, #d3762f, #d3762f);
+        }
+        .text-highlight {
+            color: #ff925f;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="gradient-bg p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-extra bold text-white">Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-7">
+                    <li><a href="#about" class="text-white hover:underline">About</a></li>
+                    <li><a href="#skills" class="text-white hover:underline">Skills</a></li>
+                    <li><a href="#projects" class="text-white hover:underline">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Remaining sections of the portfolio -->
+    <!-- Add more sections below as needed -->
+<!-- Hero Section -->
+<section class="relative text-center py-20 bg-gradient-to-br from-green-600 to-yellow-600 text-black">
+    <div class="container mx-auto">
+        <p class="text-xl md:text-2xl mb-6">Hi, I'm Harsavardhini PV</p>
+        <p class="text-xl md:text-2xl mb-6"> Flutter developer!</p>
+    </div>
+    <div class="absolute inset-0 w-full h-full bg-gradient-to-br from-purple-500 to-blue-600 opacity-20"></div>
+</section>
+
+<!-- Remaining sections of the portfolio -->
+<!-- Add more sections below as needed -->
+<section id="about" class="py-16 px-6 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
+        <p class="text-lg text-gray-600 mb-6">
+            A passionate developer with expertise in mobile and web development. I specialize in building intuitive and engaging user interfaces with Flutter. I enjoy solving complex problems and continuously learning new technologies to improve my skills.
+        </p>
+        <p class="text-lg text-gray-600 mb-6">
+            I hold a degree in Computer Science and have experience working on various projects, including a weather app, to-do list app, and more. In addition to technical skills, I bring strong leadership, teamwork, and problem-solving abilities to any project I take on.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="py-10 px-6 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Programming Languages</h3>
+            <ul class="list-none space-y-2 text-gray-600">
+                <li>Dart</li>
+                <li>Java</li>
+                <li>C</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Web Technologies</h3>
+            <ul class="list-none space-y-2 text-gray-600">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Mobile Development</h3>
+            <ul class="list-none space-y-2 text-gray-600">
+                <li>Flutter</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Tools & Technologies</h3>
+            <ul class="list-none space-y-2 text-gray-600">
+                <li>Git</li>
+                <li>Figma</li>
+                <li>Canva</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Database Management</h3>
+            <ul class="list-none space-y-2 text-gray-600">
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="projects" class="py-16 px-6 bg-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-12">My Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Weather App</h3>
+                <p class="text-gray-600 mb-4">A mobile application developed with Flutter that provides real-time weather updates using an API.</p>
+                <a href="https://github.com/Harsavardhinipv/Bharat_intern" class="text-indigo-600 hover:underline">View Project</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">To-Do List App</h3>
+                <p class="text-gray-600 mb-4">A simple to-do list app created using Flutter, with the ability to add and delete tasks efficiently.</p>
+                <a href="https://github.com/Harsavardhinipv/Bharat_intern" class="text-indigo-600 hover:underline">View Project</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Education App UI</h3>
+                <p class="text-gray-600 mb-4">Designed a highly engaging and intuitive user interface for an educational app, focused on enhancing the overall learning experience.</p>
+                <a href="https://www.figma.com/design/HCD9ga1AbYWxsokwkjPdN8/Learngo?node-id=0-1&p=f&t=ppqWJTBxq08U9w57-0" class="text-indigo-600 hover:underline">View Project</a>
+            </div>
+        </div>
+        <section id="contact" class="py-16 px-6 bg-gray-100">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8">Contact Me</h2>
+                <p class="text-lg text-gray-600 mb-12">Feel free to reach out for collaborations, job opportunities, or just to say hi!</p>
+                
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-left text-lg font-medium text-gray-700">Your Name</label>
+                        <input type="text" id="name" name="name" required class="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-left text-lg font-medium text-gray-700">Your Email</label>
+                        <input type="email" id="email" name="email" required class="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-left text-lg font-medium text-gray-700">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required class="w-full p-4 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-600"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3 px-6 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-600">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <p class="text-sm text-gray-400 mt-6">&copy; 2024 [Harsavardhini]. All rights reserved.</p>          
+    </div>
+</section>
+</body>
+</html>
